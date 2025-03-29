@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/birthday_background">
+
+    <TextView
+        android:id="@+id/birthday_message"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="49dp"
+        android:text="Happy Birthday!"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/birthday_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/birthday_message"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="93dp"
+        android:src="@drawable/cake" />
+
+    <TextView
+        android:id="@+id/birthday_wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/birthday_image"
+        android:layout_marginTop="98dp"
+        android:gravity="center_horizontal"
+        android:text="Wishing you a wonderful day filled with joy!"
+        android:textColor="@color/black"
+        android:textSize="28sp" />
+
+</RelativeLayout>
